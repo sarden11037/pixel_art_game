@@ -19,12 +19,8 @@ $("#submit-Size").click(function(e) {
 function makeGrid(e) {
  
     e.preventDefault();
-    alert("first run");
     let height = $("#input_height").val();
-    alert(height + "height");
     let width = $("#input_width").val();
-    alert("width" + width);
-    
     for (let i = 0;i< height;i++)
         {
             $("#pixel_canvas").append("<tr></tr>");

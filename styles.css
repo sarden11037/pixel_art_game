@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #0C374D;
 }
 
 h1 {
@@ -8,6 +9,7 @@ h1 {
     margin: 0.2em;
     font-smooth: auto; 
     font-smooth: 5em;
+    color: #F9F9F9;
     
     
     
@@ -17,11 +19,12 @@ h2 {
     margin: 1em 0 0.25em;
     font-family: 'Exo 2', sans-serif;
     font-size: 35spx;
-
+    color: #F9F9F9;
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
+    color: #F9F9F9;
 }
 
 table,
@@ -45,9 +48,13 @@ td {
 
 input[type=number] {
     width: 6em;
+    color: #0c374d;
 }
 .dimension-style {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-
+    color: #F9F9F9;
+}
+#submit-Size {
+    color: #0c374d;
 }
